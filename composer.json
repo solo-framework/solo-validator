@@ -1,5 +1,5 @@
 {
-	"name": "solo/ui-twig",
+	"name": "solo/solo-validator",
 	"description": "HTML forms validator for Solo framework",
 	"keywords": ["solo framework", "validator" , "validation", "html forms"],
 	"license": "MIT",
