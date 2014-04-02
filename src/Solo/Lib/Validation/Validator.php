@@ -10,6 +10,8 @@
 
 namespace Solo\Lib\Validation;
 
+use Solo\Lib\Validation\Rules\IRule;
+
 class Validator
 {
 	/**
@@ -221,11 +223,11 @@ class Validator
 	 * Расширяет способы проверки с помощью расширений - классов,
 	 * имплементирующих интерфейс IValidatorRule
 	 *
-	 * @param IValidatorRule $rule Экземпляр правила
+	 * @param IRule $rule Экземпляр правила
 	 *
 	 * @return Validator
 	 */
-	public function addValidator(IValidatorRule $rule)
+	public function addValidator(IRule $rule)
 	{
 		if ($this->isValid)
 		{
