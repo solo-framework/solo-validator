@@ -26,7 +26,7 @@ class Validator
 	 *
 	 * @var array
 	 */
-	private $messages = null;
+	private $messages = [];
 
 	/**
 	 * Проверяемое значение
